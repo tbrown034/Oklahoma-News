@@ -46,11 +46,12 @@ const Headline = () => {
         <h2>Latest Oklahoma Headlines</h2>
         <div>
           <label>
-            Search:
+          <h5>Search:</h5>
             <input type="text" value={searchTerm} onChange={event => setSearchTerm(event.target.value)} />
           </label>
           <label>
-            Sort by:
+            <h5>Sort by:</h5>
+            
             <select value={sortType} onChange={event => setSortType(event.target.value)}>
               <option value="titleAsc">Title (A-Z)</option>
               <option value="titleDesc">Title (Z-A)</option>
