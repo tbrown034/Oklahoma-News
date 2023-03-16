@@ -5,9 +5,8 @@ table {
 }
 
 th {
-  text-align: left;
-  background-color: #f2f2f2;
-  padding: 8px;
+  background-color: #0073CF;
+  color: #B3995D;
 }
 
 td {
@@ -20,21 +19,40 @@ tr:nth-child(even) {
 }
 
 tr:hover {
-  background-color: #e2e2e2;
+  background-color: #9A3B26;
 }
 
+tr:nth-child(even):hover {
+  background-color: #B3995D;
+}
+
+
 h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
+
+  text-align: center;
+  margin: 0px;
+}
+
+h2 {
+
   text-align: center;
 }
 
-select {
-  padding: 8px;
-  margin-bottom: 1rem;
-  font-size: 1rem;
+
+.topBanner {
+  background: linear-gradient(to right, #FFFFFF, #0073CF ) ;
+
 }
+
+.headlineTop {
+  background: linear-gradient(to right, #FFFFFF, #0073CF ) ;
+
+}
+
+.myHeader {
+  background: linear-gradient(to right, #0073CF, #FFFFFF) !important;
+}
+
 
 @media (max-width: 768px) {
   table {

@@ -1,10 +1,17 @@
 import './App.css';
-import Headline from "./Components/Headline"
+import Headline from "./Components/Headline";
+import Header from "./Components/Header"
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      
+      <Header />
+      <div className='topBanner'>
+      <h1>Oklahoma News and Politics Portal</h1>
+        
+      </div>
+      
       <Headline />
       
     </div>
